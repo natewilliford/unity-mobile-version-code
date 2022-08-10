@@ -22,4 +22,4 @@ public class TestVersionCode : MonoBehaviour
 
 ## Install
 
-TODO
+Open `Windows > Package Manager`. Click the add button in the upper left, then `Add package from git URL`. Paste in the URL: `https://github.com/natewilliford/unity-mobile-version-code.git`.
