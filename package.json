@@ -1,0 +1,15 @@
+{
+  "name": "com.natewilliford.unitymobileversioncode",
+  "displayName": "Mobile Version Code",
+  "version": "1.0.0",
+  "unity": "2018.4",
+  "license": "MIT",
+  "description": "Get the native version code for Android or iOS.",
+  "keywords": ["mobile", "native"],
+  "dependencies": {},
+  "samples": [],
+  "author": {
+    "name": "Nate Williford",
+    "url": "https://github.com/natewilliford"
+  }
+}
