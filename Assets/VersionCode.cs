@@ -25,5 +25,16 @@ namespace MobileVersionCode
             return -1;
 #endif
         }
+        
+        public static string GetVersionCodeString()
+        {
+#if UNITY_ANDROID && !UNITY_EDITOR
+            return AndroidVersionCode.GetVersionCode().ToString();
+#elif UNITY_IOS && !UNITY_EDITOR
+            return getBundleVersionString();
+#else
+            return "";
+#endif
+        }
     }
 }
